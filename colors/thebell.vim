@@ -10,15 +10,15 @@ let colors_name = "thebell"
 
 "autocomp list
 
-"blue #3a88ed
+"red #e5796d
 hi Normal ctermbg=0 ctermfg=7 guibg=#100010 guifg=#d0d0d0 gui=none
 hi Comment guibg=bg guifg=#909090 gui=none
 "Strings
 hi Constant guibg=bg guifg=#ffff88 gui=none
 "cf func
-hi Identifier guibg=bg guifg=#e5796d gui=none
+hi Identifier guibg=bg guifg=#a75acc gui=none
 "cfml normal
-hi PreProc guibg=bg guifg=#a75acc gui=none
+hi PreProc guibg=bg guifg=#3a88ed gui=none
 "sql statement
 hi Special guibg=bg guifg=#e8b86e gui=none
 "tags
