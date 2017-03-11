@@ -8,15 +8,16 @@ endif
 
 let colors_name = "thebell"
 
-"blue #3a88ed
+"blue #3a88ed 69
+"red #e5796d 173
 hi Normal ctermbg=0 ctermfg=188 guibg=#100010 guifg=#d0d0d0 gui=none
 hi Comment ctermbg=bg ctermfg=102 guibg=bg guifg=#909090 gui=none
 "Strings
 hi Constant ctermbg=bg ctermfg=228 guibg=bg guifg=#ffff88 gui=none
 "cf func
-hi Identifier ctermbg=bg ctermfg=173 guibg=bg guifg=#e5796d gui=none
+hi Identifier ctermbg=bg ctermfg=134 guibg=bg guifg=#a75acc gui=none
 "cfml normal
-hi PreProc ctermbg=bg ctermfg=134 guibg=bg guifg=#a75acc gui=none
+hi PreProc ctermbg=bg ctermfg=69 guibg=bg guifg=#3a88ed gui=none
 "sql statement
 hi Special ctermbg=bg ctermfg=179 guibg=bg guifg=#e8b86e gui=none
 "tags
