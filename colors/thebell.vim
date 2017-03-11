@@ -8,28 +8,28 @@ endif
 
 let colors_name = "thebell"
 
-"autocomp list
-
 "blue #3a88ed
-hi Normal ctermbg=0 ctermfg=7 guibg=#100010 guifg=#d0d0d0 gui=none
-hi Comment guibg=bg guifg=#909090 gui=none
+hi Normal ctermbg=0 ctermfg=188 guibg=#100010 guifg=#d0d0d0 gui=none
+hi Comment ctermbg=bg ctermfg=102 guibg=bg guifg=#909090 gui=none
 "Strings
-hi Constant guibg=bg guifg=#ffff88 gui=none
+hi Constant ctermbg=bg ctermfg=228 guibg=bg guifg=#ffff88 gui=none
 "cf func
-hi Identifier guibg=bg guifg=#e5796d gui=none
+hi Identifier ctermbg=bg ctermfg=173 guibg=bg guifg=#e5796d gui=none
 "cfml normal
-hi PreProc guibg=bg guifg=#a75acc gui=none
+hi PreProc ctermbg=bg ctermfg=134 guibg=bg guifg=#a75acc gui=none
 "sql statement
-hi Special guibg=bg guifg=#e8b86e gui=none
+hi Special ctermbg=bg ctermfg=179 guibg=bg guifg=#e8b86e gui=none
 "tags
-hi Statement guibg=bg guifg=#6fe1fc gui=none
+hi Statement ctermbg=bg ctermfg=81 guibg=bg guifg=#6fe1fc gui=none
 "Attributes
-hi Type guibg=bg guifg=#fea5ff gui=none
+hi Type ctermbg=bg ctermfg=219 guibg=bg guifg=#fea5ff gui=none
 
-hi LineNr guifg=#606060 gui=none
-hi Pmenu guibg=#2a88cd guifg=#000000 gui=none
-hi MatchParen guibg=#124880 gui=none
-hi NonText ctermfg=8 guibg=bg guifg=#909090 gui=bold
+hi LineNr ctermfg=59 guifg=#606060 gui=none
+hi Pmenu ctermbg=32 ctermfg=0 guibg=#2a88cd guifg=#000000 gui=none
+hi MatchParen ctermbg=24 guibg=#124880 gui=none
+hi NonText ctermfg=102 ctermbg=bg guibg=bg guifg=#909090 gui=bold
+hi PmenuSel ctermbg=184 ctermfg=0 guibg=#e0e000 guifg=#000000 gui=none
+hi Search ctermfg=0 ctermbg=114 guibg=#90e090 guifg=#000000 gui=none
 
 
 hi Error guibg=bg guifg=#ee2c2c gui=none
@@ -61,9 +61,7 @@ hi Directory guibg=bg guifg=#1e90ff gui=none
 hi ErrorMsg guibg=#ee2c2c guifg=#ffffff gui=bold
 hi IncSearch guibg=#e0cd78 guifg=#000000 gui=none
 hi ModeMsg guibg=bg guifg=fg gui=bold
-hi PmenuSel guibg=#e0e000 guifg=#000000 gui=none
 hi Question guibg=bg guifg=#e8b87e gui=bold
-hi Search guibg=#90e090 guifg=#000000 gui=none
 hi SpecialKey guibg=bg guifg=#e8b87e gui=none
 
 if has("spell")
